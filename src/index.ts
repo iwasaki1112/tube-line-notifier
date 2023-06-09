@@ -1,9 +1,9 @@
-import dotenv from "dotenv"
-import path from 'path'
+// import dotenv from "dotenv"
+// import path from 'path'
 import { google, youtube_v3 } from "googleapis"
 
-const envPath = path.join(__dirname, '..', '.env')
-dotenv.config({ path: envPath })
+// const envPath = path.join(__dirname, '..', '.env')
+// dotenv.config({ path: envPath })
 
 export class YoutubeClient {
   private _service: youtube_v3.Youtube
@@ -67,13 +67,3 @@ export class YoutubeClient {
   }
 
 }
-
-// (async () => {
-//   const CHANNEL_ID = 'UCkDvF6vKRftZJKbZzjKleJg';
-//   const API_KEY = process.env.GOOGLE_API_KEY!
-//   const youtubeClient = new YoutubeClient(API_KEY)
-//   const videos = await youtubeClient.fetchAllVideos(CHANNEL_ID)  
-// })()
-
-
-
