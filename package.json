@@ -1,10 +1,16 @@
 {
-  "name": "@iwasaki/tube-line-notifier",
-  "version": "1.0.0",
+  "name": "tube-line-notifier",
+  "version": "0.1.1",
   "description": "this package notice Line app with Youtube api and you can access your channel information throught line chat!",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iwasaki1112/tube-line-notifier.git"
   },
   "keywords": [
     "line",
@@ -12,5 +18,8 @@
     "notification"
   ],
   "author": "iwasaki1112",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^5.1.3"
+  }
 }
