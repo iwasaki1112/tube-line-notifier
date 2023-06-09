@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "target": "es2016",
+    "target": "es2018",
     "module": "commonjs",
     "declaration": true,  // ← 追記（コンパイルしたtsファイルの中でexportしているもの全ての型定義ファイルを出力する）
     "sourceMap": true,  // ← 追記（ソースマップを出力する）
