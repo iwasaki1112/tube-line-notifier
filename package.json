@@ -1,12 +1,13 @@
 {
   "name": "tube-line-notifier",
-  "version": "0.1.1",
+  "version": "0.1.11",
   "description": "this package notice Line app with Youtube api and you can access your channel information throught line chat!",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
-    "prepare": "npm run build"
+    "prepare": "npm run build",
+    "publish": "npm publish --access=public"
   },
   "repository": {
     "type": "git",
