@@ -2,3 +2,7 @@
 /src
 tsconfig.json
 .env
+.npmrc
+publish.sh
+.npmrc-gh
+.npmrc-npm

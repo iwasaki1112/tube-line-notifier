@@ -1,3 +1,7 @@
 /node_modules
 /dist
 .env
+.npmrc
+publish.sh
+.npmrc-gh
+.npmrc-npm
