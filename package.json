@@ -1,7 +1,7 @@
 {
   "name": "youtube-channel-analyzer",
   "version": "0.1.0",
-  "description": "this package notice Line app with Youtube api and you can access your channel information throught line chat!",
+  "description": "",
   "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
