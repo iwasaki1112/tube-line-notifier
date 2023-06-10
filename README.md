@@ -10,5 +10,6 @@ npm install youtube-channel-analyzer --save
 
 ```javascript
 const YoutubeChannelAnalyzer = require('youtube-channel-analyzer')
-const youtubeChannelAnalyzer = new Hashids()
+const youtubeChannelAnalyzer = new YoutubeChannelAnalyzer()
 ```
+
