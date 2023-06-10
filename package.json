@@ -1,6 +1,6 @@
 {
-  "name": "@iwasaki1112/youtube-channel-analyzer",
-  "version": "0.1.93",
+  "name": "youtube-channel-analyzer",
+  "version": "0.1.0",
   "description": "this package notice Line app with Youtube api and you can access your channel information throught line chat!",
   "main": "dist/index.js",
   "scripts": {
@@ -25,8 +25,5 @@
   "devDependencies": {
     "@types/node": "^20.2.5",
     "dotenv": "^16.1.4"
-  },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/iwasaki1112"
   }
 }
