@@ -3,5 +3,6 @@
 .env
 .npmrc
 publish.sh
+.npmignore
 .npmrc-gh
 .npmrc-npm
