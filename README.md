@@ -17,7 +17,7 @@ npm install youtube-channel-analyzer --save
 Firstly, import the package and initialize with your YouTube Data API v3 key.
 
 ```javascript
-import { YouTubeChannelAnalyzer } from '@iwasaki1112/youtube-channel-analyzer'
+import { YouTubeChannelAnalyzer } from 'youtube-channel-analyzer'
 
 const apiKey = YOUR_API_KEY
 const youTubeChannelAnalyzer = new YouTubeChannelAnalyzer(apiKey)
